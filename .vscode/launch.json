@@ -12,11 +12,12 @@
             "runtimeArgs": [
                 "gekko.js",
                 "--config",
-                "config-mtc.js"                
+                "config-test.js",
+                "--backtest"              
             ],
             "protocol": "inspector",
             "timeout": 300000,
-            "port": 9229
+            "port": 9229,
             "cwd": "${workspaceRoot}"
         },
         {

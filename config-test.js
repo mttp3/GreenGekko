@@ -352,10 +352,10 @@ config.candleUploader = {
 
 config.backtest = {
 //  daterange: 'scan',
-// daterange: {
-   from: "2020-01-01",
-   to: "2020-01-02"
-//},
+  daterange: {
+    from: "2020-01-01",
+    to: "2020-01-02"
+  },
   batchSize: 1000
 }
 
